@@ -177,15 +177,15 @@ async function openMenuCommand() {
       midLeft: "├",
       midRight: "┤",
       lines: [
-        `  [${new Date().toLocaleTimeString()}] Wallet #01   →   Swap ETH → USDC`,
-        `  TX HASH     : ${"0x..."}`,
+        `  [${new Date().toLocaleTimeString()}] Wallet #01   →   Token Mint`,
+        `  TX HASH     : ${"..."}`,
         `  STATUS      : ${"CONFIRMED"}`,
         ``,
         `  [${new Date().toLocaleTimeString()}] Wallet #07   →   Mint NFT`,
         `  TX HASH     : ${"..."}`,
         `  STATUS      : ${"PENDING"}`,
         ``,
-        `  [${new Date().toLocaleTimeString()}] Wallet #15   →   Bridge Base → Arbitrum`,
+        `  [${new Date().toLocaleTimeString()}] Wallet #15   →   Netrun Imprint`,
         `  TX HASH     : ${"..."}`,
         `  STATUS      : ${"SUCCESS"}`
       ]

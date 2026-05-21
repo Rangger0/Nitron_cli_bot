@@ -1,7 +1,11 @@
-# TODO
+# TODO - ALPHA BOT NETRUN
 
-- [ ] Visual CLI only: update `src/cli/menuCommands.js` to match the dashboard-style example (boxes/panels), WITHOUT changing prompt logic or the `netrunDailyCommand(options)` call.
-- [ ] If needed, adjust `src/utils/logger.js` only to support required panel/box rendering (no logging behavior changes).
-- [ ] Run `node src/index.js menu` to verify output layout renders correctly.
-- [ ] Run unit/lint/tests if present (or `node -c`/`npm test` if available).
+## Completed
+- [x] Perbaiki pesan error saat folder wallet tidak berisi file `*.json`.
+- [x] Hapus/ubah tampilan menu "swap USDC / bridge arbitrum" jadi sesuai Solana flow (token mint + mint NFT + netrun imprint).
+
+## Next steps
+- [ ] Jalankan bot di environment kamu untuk memastikan tidak ada lagi referensi swap/bridge di tampilan.
+- [ ] Pastikan folder `wallets/` berisi file `wallet*.json` (1 wallet = 1 file .json).
+- [ ] Jika masih muncul "SWAP USDC" di log runtime (bukan menu), cari sumbernya dan hapus dari implementasi.
 

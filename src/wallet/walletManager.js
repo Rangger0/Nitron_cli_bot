@@ -122,7 +122,11 @@ function loadMultipleWallets(walletsFolderPath = config.walletsFolderPath) {
       .filter((walletFile) => !path.basename(walletFile).startsWith("."));
     
     if (walletFiles.length === 0) {
-      throw new Error(`No wallet files found in ${walletsFolderPath}`);
+      throw new Error(
+        `No wallet files found in ${walletsFolderPath}. ` +
+          `Expected one or more Solana wallet files in JSON format (*.json). ` +
+          `Example: ./wallets/wallet1.json, ./wallets/wallet2.json`
+      );
     }
 
     const wallets = [];
