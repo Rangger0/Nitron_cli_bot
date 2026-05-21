@@ -1,0 +1,30 @@
+{
+  "name": "nitron-cli",
+  "version": "1.0.0",
+  "description": "Alpha Bot terminal CLI for the Netrun project",
+  "main": "src/index.js",
+  "bin": {
+    "nitron": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "link": "npm link",
+    "unlink": "npm unlink"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.8",
+    "@solana/web3.js": "^1.95.0",
+    "bs58": "^6.0.0",
+    "chalk": "^4.1.2",
+    "commander": "^12.0.0",
+    "dotenv": "^16.4.5",
+    "node-cron": "^4.2.1",
+    "ora": "^5.4.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
